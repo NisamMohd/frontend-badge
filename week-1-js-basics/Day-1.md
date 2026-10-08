@@ -47,15 +47,21 @@
         - same process of coerecion but done by explicitly by developerusing functions like String(),Number() or Boolean()
 
 ### Conditional statements
-    If else
-    Switch case
-    Ternary operator
+    If else : 
+        "if-else is a decision-making statement. It executes one block when a condition is true and another block when the condition is false."
+
+    Switch case : 
+        "switch-case is used for multiple fixed-value comparisons. It checks an expression against different case values and executes the matching block. break prevents fall-through, and default handles cases where there is no match."
+
+    Ternary operator : 
+        The ternary operator is a conditional operator in JavaScript that provides a short way to write a simple if-else statement.
 
 ### JavaScript Loops
     • For loop
     • while loop
     • do while loop
 
+    "for, while, and do...while are looping statements used to repeatedly execute code. I generally use a for loop when the number of iterations is known. I use a while loop when the number of iterations depends on a condition. A do...while loop is useful when I need the code to execute at least once, because its condition is checked after the loop body."
 ### Function
     - block of reusable code that takes optional input as parameters,performs an operation, an optionally return an output
     
@@ -63,9 +69,28 @@
     “An object in JavaScript is a mutable, non-primitive data structure that stores data as key-value pairs and can also contain methods.”
 
 ### JS ITERATION    
-    ○ For In loop 
-    ○ For Of loop
-    ○ Scopes
+#### For In loop 
+        The for...in loop is used to iterate over the enumerable property keys of an object.
 
+        for...in gives me the keys/indexes, not the values directly.
+
+#### For Of loop
+        The for...of loop is used to iterate over the values of an iterable.
+
+        It works with arrays, strings, Sets, Maps, and other iterables.
+
+#### Scopes
+    - Scope defines where a variable can be accessed in a JavaScript program.
+    - There are mainly three scopes you should know:
+        1. Global scope
+            A variable declared outside functions and blocks is generally in the global scope.
+
+        2. Function scope
+            Variables declared with var inside a function are accessible within that function.
+
+        3. Block scope
+            A block is code surrounded by { }, such as an if, for, or while.
+
+        "for...in is mainly used to iterate over the keys or property names of an object, while for...of is used to iterate over the values of an iterable such as an array or string. Scope defines where a variable can be accessed. JavaScript has global, function, and block scopes. var is function-scoped, whereas let and const are block-scoped."
 
 

@@ -24,24 +24,10 @@
 
     "A Fragment lets me group multiple React elements without adding an extra DOM node."
 
-    Virtual DOM & Actual DOM
+#### Virtual DOM & Actual DOM
     Virtual DOM: In-memory representation of UI used during React's reconciliation process.
 
     Actual DOM: The real DOM maintained by the browser. 
 
     Reconciliation: React's process of comparing the new UI representation with the previous one and determining the necessary updates.
 
-### Library vs Framework
-
-### Installation & Setup
-
-### Folder Structure
-    JSX
-    Strict Mode
-    Fragment
-
-### Strict Mode
-
-### Fragment
-
-### Virtual DOM & Actual DOM
